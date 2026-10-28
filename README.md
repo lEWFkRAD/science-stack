@@ -1,3 +1,10 @@
+<!-- project-home:start -->
+**[Science Stack project homepage](https://lewfkrad.github.io/science-stack/)** · [Documentation](https://github.com/lEWFkRAD/science-stack#projects)
+
+Mathematical experiments with numerical checks, reproducible evidence, and clearly stated approximation limits.
+
+<!-- project-home:end -->
+
 # Science Stack
 
 A public collection of verified visual-mathematics experiments built by local AI agents, with reproducible numerical checks, provenance, and honest separation between reference solvers and real-time approximations.
