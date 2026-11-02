@@ -15,6 +15,9 @@ A public collection of verified visual-mathematics experiments built by local AI
 |---|---|---|
 | **Riemann–Newton Atlas** | Complex dynamics, polynomial roots, Newton flow, fractal geometry | [`index.html`](index.html) · [`3d/atlas3d.html`](3d/atlas3d.html) |
 | **Kerr Light Cathedral** | Numerical relativity, null geodesics, gravitational lensing | [CPU reference + 100-point grader](kerr-light-cathedral/index.html) · [live WebGL2 edition](kerr-light-cathedral/cathedral-live.html) |
+| **Collatz Basin** | Discrete dynamics, stopping times, record breakers | [`collatz-basin/collatz-basin.html`](collatz-basin/collatz-basin.html) |
+| **Pythagoras by Rearrangement** | Proof-without-words, animated rearrangement | [`pythagoras/pythagoras.html`](pythagoras/pythagoras.html) |
+| **Lorenz Attractor** | Deterministic chaos, Lyapunov divergence | [`lorenz-attractor/lorenz-attractor.html`](lorenz-attractor/lorenz-attractor.html) |
 
 ## Riemann–Newton Atlas
 
@@ -41,6 +44,24 @@ The second Science Stack project ray-traces a spinning Kerr black hole from the 
 - Source, verification scripts, engineering notes, known limitations, and image receipts are collected in [`kerr-light-cathedral/`](kerr-light-cathedral/README.md).
 
 ![Kerr Light Cathedral full-resolution CPU receipt](kerr-light-cathedral/receipts/cathedral-render.png)
+
+## November 2026 trio: Collatz Basin · Pythagoras · Lorenz Attractor
+
+Three single-file interactive pages built the same way as the rest of the
+stack: the numbers live in live-formula Excel workbooks computed by Python and
+recalculated headlessly with LibreOffice, exported to JSON, and inlined into
+one self-contained HTML. Pure logic is unit-tested headlessly in node before
+the build.
+
+- **[Collatz Basin](collatz-basin/README.md)** — 100,000 starting values falling
+  into 1, with step-count terrain and 34 record breakers (max 350 steps at
+  77,031; max peak 1,570,824,736).
+- **[Pythagoras by Rearrangement](pythagoras/README.md)** — the (a+b)² square,
+  four triangles, the hole reforms: 400 triples proven, 100 counterexamples
+  with nonzero delta, hero area 1681 conserved across both configurations.
+- **[Lorenz Attractor](lorenz-attractor/README.md)** — two particles, one kiss,
+  two wings: 20 divergence clones (ε=1e-9..1e-4), median split t=27.35,
+  Benettin λ≈0.98 against literature 0.9056.
 
 ## 3D companion
 
